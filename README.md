@@ -5,7 +5,7 @@ Welcome to my personal portfolio! I'm a tech enthusiast making a career change f
 I have experience in  building/troubleshooting PCs, installing hardware/software.
 
 ## Skills
-- PC/Peripheral Installation & Troubleshooting
+- PC/Peripheral Installation & Troubleshooting (Windows, Mac, & Linux)
 - Customer Service
 - Java, HTML, CSS, Javascript, VBA Language Knowledge
 - Microsoft Excel Data Analysis including PowerQuery
