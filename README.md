@@ -10,5 +10,12 @@ I have experience in  building/troubleshooting PCs, installing hardware/software
 - Java, HTML, CSS, Javascript, VBA Language Knowledge
 - Microsoft Excel Data Analysis including PowerQuery
 
+## Projects
+- Pi Hole
+- Create a Network
+- Create a VM (Linux)
+- Active Directory
+- Computer Maintenance
+
 ## Contact
 You can reach me at [LinkedIn](www.linkedin.com/in/brian-bailey-083947391) or [GitHub](https://github.com/bbailey51).
