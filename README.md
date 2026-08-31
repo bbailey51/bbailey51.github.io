@@ -13,6 +13,7 @@ As stated above I'm beginning my career in IT in 2026 however I have been person
 
 ## Projects
 - [Pi-Hole](https://github.com/bbailey51/bbailey51.github.io/blob/829c07686af99f485bf990a6f555df4043c188d6/PiHole.md)
+    - Network Improvement Sub-Project
 <!-- Add once done - Create a Network -->
 <!-- Add once done - Create a VM (Linux) -->
 <!-- Add once done - Created Packet Sniffer -->
