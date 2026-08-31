@@ -1,0 +1,24 @@
+# Network Improvement Project
+
+## **In progress**
+
+## Backstory
+
+One of the issues of the Pi-Hole project that came up was the issue of not being able to customize what I can work with on the Xfinity gateway.  Specifically can't edit the DNS server or entirely cut the gateway out of the DHCP loop so there isn't competition by the gateway and Pi Hole to serve IP addresses to devices.  Additionally the gateway has spotty reception between 2 stories of an apartment building so connectivity has been inadequate at times for my needs for gaming and streaming. 
+
+
+Working with the person upstairs who holds the account for the internet and helping out technologically, we came to the agreement of that I could take the gateway to my apartment and test the gateway there and if it works adequately, get a new router to bridge to the gateway.
+
+## Implementation
+
+To begin implementation, I had to ensure the office/computer room I was planning to hook up the gateway could allow it.  I did find a coaxial outlet under my desk and also needed to see if the power and coax cables were long enough to support being placed 5 feet above the floor on the top shelf of my desk.  Luckily all of these potential problems didn't have any barriers.  
+
+Additionally before moving the gateway I took speed tests (at least 5 tests for each device and location) to get a baseline of my download/upload speeds.  Prior to the move my Mac had very good speeds getting **(insert speeds here)** and my front room PC and cell phone were much lower due to being a room and a floor over.  My gaming PC in the office reached peak speeds for the service at 1 GBS download and 100 MBs upload with only a ceiling separated from the gateway and PC.  These findings do lead me that the gateway is having interference issues that could be causing some of the connectivity issues I've been having from the front room and bed.  
+
+Working with my neighbor upstairs who I've helped a few times before on our network issues in the past including identifying intermittent issues that were dropping packets that the Xfinity tech pinned down to the MoCA filter that wasn't needed for the new gateway and recently intermittent drop outs in connectivity.  They agreed that I'm more technologically literate and with my Pi-Hole project it would be best if I take the gateway and take care of it.  They don't need the network as much as I do with all of my devices.  After helping her out seeing where the gateway was originally years ago and cleaning up a lot of useless cords she doesn't need, I did a few speed test with my Mac and phone and saw consistently on the Mac I had better speeds, my phone though was very erratic on if the speed and connectivity was better.
+
+Either way I took the gateway downstairs with me and everything plugged in correctly and internet was functioning correctly.  I took speed tests and confirmed better connectivity though upload speeds were lower which knowing from the neighbor that speeds won't come back entirely after a power off until a few hours that I'd chalk it up to that.  But testing front room pc, the mac, and phone in the front room I noticed consistently speeds were greater than when the gateway was upstairs.  I checked with the neighbor and speeds didn't go down I advised to test streaming video services to make sure those run how she wants them so there is not any connectivity issue and was none noted so part 1 of the network improvement was completed and everything worked smoothly.
+
+Part 2 was in the making before hand figuring out what router should I get.  I was looking at rtings.com and seeing what are proven routers I could go for.  Top range price was $700 for speeds that the current connection we have isn't capable of and way above what we'll need for a long while so no point in doing that.  I do have a higher ceiling on performance in case of a big upgrade or move elsewhere with much higher speeds.  Mid-range recommendation was the TP Link BE550.  Price around $200 with all the bells and whistles of Wi-Fi 7 connectivity, can work with my Wi-Fi extender as a mesh network, network segmentation if we want IoT devices, better security and what kind of connections it'll allow.  I saw there was a Pro model that was cheaper which only difference was the WAN/LAN port allowed for 10 GBpS instead of 2.5 GBpS.  Unfortunately I waited too long and became much more expensive and the same price as the BE600.  I looked at that and had much better throughput on the 2.4 GHz band (2x roughly) and just about everything the 550 Pro had.  With that difference was enough to go with the BE600.
+
+Ideally would want to test the speeds all the same time but with scheduling and personal plans taking priority times for this initial test and speeds with the gateway post move and new router took place days after leading to some variability on speeds.  
