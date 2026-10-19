@@ -1,4 +1,6 @@
 # Pi-Hole Project
+
+## Part 1
 1.	For the implementation I am using a Raspberry Pi 4 Model B 1 GB of RAM model with a 32 GB MicroSD card for storage of the OS
 <!-- Image of Raspberry Pi here -->
 ![Image of a Raspberry Pi 4 Model B](/20260822_104828.jpg)
@@ -34,3 +36,14 @@
 8.	Due to this limitation, full implementation hasn’t been put in place until maintenance with Xfinity is completed due to some interference & speed issues yet to be figured out though everything has worked up to implementation on the router side of things and know what steps to take next with IP reservation of the Pi-Hole and changing the DNS server to that address
    
 9.	The ideal Plan A is get a stronger router that allows for customization to hook into the Xfinity gateway and set it to bridge mode to become a modem only and then implement the Pi-Hole without any of the Xfinity restrictions along with using my own choice of a router, also thinking for myself and the person who has ownership of the gateway that I could potentially get a better network and coverage with the plan of the router and Wi-Fi extender working together as 1 network.
+
+## Part 2
+As with a lot of IT Projects there is updates and changes and most of all change here is the ideal Plan A was put into motion by making the necessary network upgrades listed here (https://github.com/bbailey51/bbailey51.github.io/blob/main/NetworkImprovement.md#network-improvement-project) and have a Xfinity Gateway only used as the modem and a router where I have control of the DNS Servers that I want specified.  
+
+10.  After making the network improvements I have booted up the PiHole once more and connected via Ethernet to the router and changed IPv4 & IPv6 DNS servers over to the address of the PiHole.  Additionally updated gravity lists so it's up to date from previous log in.
+
+11.  Issues that came up was I only had the IPv4 address set initially where I wasn't putting in the correct IPv6 address (I was putting in 2 addresses for 1 address), so everything still was running past the IPv4 DNS to the IPv6 address that Xfinity has setup.  After figuring the IPv6 address, desktop was running good however DNS resolving for cell phones were now broken.  Adjusting listening mode of the PiHole did finally allow cell phones.
+
+ Using it for the past month has prevented a phishing attempt, blocked malicious pop-ups, and Fiancé has been amazed at the ad-blocking and such as to get a similar setup for her parents.  Already planning a call and check remotely their capabilities for the viability of a simple PiHole only or if we need to get a router as well set that up and then use a PiHole.
+
+ As for a personal IT project, couldn't have gone any better, I've learned some more things about DNS & Networking, and very rewarding to get this stood up and have something give a big benefit instead of learning something for the sake of something and don't get to use it day to day.
