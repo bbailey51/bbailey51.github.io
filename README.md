@@ -15,7 +15,7 @@ As stated above I'm beginning my career in IT in 2026 however I have been person
 ## Projects
 - [Pi-Hole](https://github.com/bbailey51/bbailey51.github.io/blob/829c07686af99f485bf990a6f555df4043c188d6/PiHole.md)
     - [Network Improvement Sub-Project](https://github.com/bbailey51/bbailey51.github.io/blob/793563f75e42bc45bac8e0e97e21365596c4e014/NetworkImprovement.md)
-- Customer Service Story: Trials and Tribulations of Tech Support with my Father
+- [Customer Service Story: Trials and Tribulations of Tech Support with my Father](https://github.com/bbailey51/bbailey51.github.io/blob/a3ce27c43605c0a995ab6ca4adcc7c2a0a162870/CS%3ADadPC.md)
 <!-- Add once done - Create a VM (Linux) -->
 <!-- Add once done - Created Packet Sniffer -->
 <!-- Add once done- Active Directory -->
